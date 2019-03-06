@@ -1,0 +1,6 @@
+<mat-list>
+  <test-item-estudiante *ngFor="let est of listaEstudiantes"
+                    [estudiante]="est"
+                    (onMouseClick)="onMouseClick($event)">
+  </test-item-estudiante>
+</mat-list>
